@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Cyber Awareness Demo</title>
+<title>Easy Money</title>
 <style>
     body{
         background:black;
