@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>For You ❤️</title>
+    <title>Just for You ❤️</title>
+
     <style>
         body {
             background: linear-gradient(to right, #ff758c, #ff7eb3);
@@ -11,6 +12,7 @@
             color: white;
             padding: 40px;
         }
+
         .box {
             background: rgba(0,0,0,0.3);
             padding: 25px;
@@ -18,12 +20,18 @@
             max-width: 600px;
             margin: auto;
         }
-        iframe {
-            margin-top: 20px;
-            border-radius: 10px;
+
+        h1 {
+            font-size: 2em;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
         }
     </style>
 </head>
+
 <body>
 
 <div class="box">
@@ -37,13 +45,12 @@
     </p>
 
     <p><strong>This song reminds me of you 💌</strong></p>
-
-    <!-- YouTube Embed -->
-    <iframe width="300" height="170"
-        src="https://www.youtube.com/embed/2Vv-BfVoq4g"
-        allowfullscreen>
-    </iframe>
 </div>
+
+<!-- Background Music -->
+<audio autoplay loop>
+    <source src="perfect.mp3" type="audio/mpeg">
+</audio>
 
 </body>
 </html>
