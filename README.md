@@ -1,41 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <title>For You ❤️</title>
     <style>
-        body { 
-            background: #0a1a2a;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            font-family: Arial;
-            margin: 0;
-        }
-        .hack-link {
-            background: linear-gradient(45deg, #ffd700, #ffa500);
-            color: #000;
-            font-size: 4rem;
-            font-weight: 900;
-            padding: 2rem 4rem;
-            border-radius: 80px 20px 80px 20px;
-            text-decoration: none;
-            border: 5px solid #fff;
-            box-shadow: 0 20px 0 #8b0000;
-            display: inline-block;
-            transition: all 0.1s;
-            cursor: pointer;
-        }
-        .hack-link:active {
-            background: #8b0000;
+        body {
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+            font-family: Arial, sans-serif;
+            text-align: center;
             color: white;
-            box-shadow: 0 5px 0 #4a0000;
-            transform: translateY(15px);
-            font-size: 3rem;
-            content: "YOUR PHONE HAS BEEN HACKED";
+            padding: 40px;
+        }
+        .box {
+            background: rgba(0,0,0,0.3);
+            padding: 25px;
+            border-radius: 15px;
+            max-width: 600px;
+            margin: auto;
+        }
+        iframe {
+            margin-top: 20px;
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
-    <a href="#" class="hack-link" onclick="this.innerHTML='⚠️ YOUR PHONE HAS BEEN HACKED ⚠️'; this.style.background='#8b0000'; this.style.color='white'; this.style.fontSize='2.5rem'; return false;">💰 EASY MONEY 💰</a>
+
+<div class="box">
+    <h1>Just for You 💕</h1>
+
+    <p>
+        “Baby, I'm dancing in the dark,<br>
+        With you between my arms,<br>
+        Barefoot on the grass,<br>
+        Listening to our favorite song…” ❤️
+    </p>
+
+    <p><strong>This song reminds me of you 💌</strong></p>
+
+    <!-- YouTube Embed -->
+    <iframe width="300" height="170"
+        src="https://www.youtube.com/embed/2Vv-BfVoq4g"
+        allowfullscreen>
+    </iframe>
+</div>
+
 </body>
 </html>
